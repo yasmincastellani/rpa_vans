@@ -44,6 +44,7 @@ class CatalogoVans:
         dict_products = dict_pageprops["product"]
         variants_options = dict_products["variantOptions"]
         return variants_options
+    
 
     def __filter_sizes(self, variants_options: dict) -> list[dict]:
         list_shoes = []
